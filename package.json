@@ -12,6 +12,7 @@
   "dependencies": {
     "jquery": ">=1.8"
   },
+  "main": "jquery.flexdatalist.js",
   "author": "Sérgio Dinis Lopes",
   "license": "MIT",
   "homepage": "http://projects.sergiodinislopes.pt/flexdatalist/",
