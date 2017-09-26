@@ -781,7 +781,7 @@
 	             * Get li item from value.
 	             */
 	                findLi: function ($li) {
-	                    if (!($li instanceof jQuery)) {
+	                    if (!($li instanceof $)) {
 	                        var val = $li;
 	                        $li = null;
 	                        $multiple.find('li:not(.input-container)').each(function () {
