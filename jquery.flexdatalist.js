@@ -420,7 +420,7 @@
 	         * Multiple values input/list
 	         */
 	            multipleInput: function ($alias) {
-	                $multiple = $('<ul tabindex="1">')
+	                $multiple = $('<ul tabindex="0">')
 	                    .addClass('flexdatalist-multiple ' + fid)
 	                    .css({
 	                        'border-color': $this.css('border-left-color'),
